@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "et0_barra"
+version = "0.1.0"
+description = "Reference evapotranspiration calculations from BARRA meteorological data"
+readme = "README.md"
+requires-python = ">=3.10"
+
+dependencies = [
+    "numpy",
+    "xarray",
+    "pandas",
+    "cf_units"
+]
