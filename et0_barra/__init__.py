@@ -1,1 +1,1 @@
-from .et0 import calculate_daily_et0
+from .et0 import daily_crop_reference_et0
